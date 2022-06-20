@@ -1,0 +1,65 @@
+.header-clinique{
+    background-image: url(../../../../public/assets/images/la-clinique/header-clinique.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    .titre-header{
+        font-family: $typo-titre;
+        font-size: $typo-taille-titre;
+        color: $lien-color;
+        letter-spacing: 2px;
+        overflow-y: hidden;
+        
+
+    }
+}
+
+main{
+    article{
+        .section-presentation{
+            margin-top: 50px;
+            .list-equipes{
+                width: 80%;
+                height: auto;
+                margin-top: 50px;
+                border-radius: 30px;
+                background-color:rgb(52, 52, 52);
+                color: $texte-color;
+
+                .equipe-item{
+                    display: flex;
+                    justify-content:space-evenly;
+                    align-items: center;
+                    margin-bottom: 200px;
+                    img{
+                        width: 180px;
+                        height: 180px;
+                        border-radius: 100%;
+                    }
+                    .list-infos{
+                        .info-item{
+                            font-family: $typo-texte;
+                            font-size: 20px;
+                            
+                        }
+                    }
+
+                }
+            }
+                .titre-custom {
+                    text-align: center;
+                    margin-bottom: 20px;
+                    color: $texte-color;
+                            
+                }
+                .none{
+                    color: $titre-color;
+                }            
+        }
+    }
+}

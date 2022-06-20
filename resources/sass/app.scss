@@ -1,0 +1,27 @@
+//Settings Variables/rooting Navigateur
+@import '_settings.scss';
+
+//Import dépendances
+
+
+//import Typographie
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=PT+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+
+//Import style des incs
+@import './components/incs-style/navbar.scss';
+@import './components/incs-style/footer.scss';
+@import './components/incs-style/navAdmin.scss';
+
+//Import style des pages
+@import './components/page-style/accueil';
+@import './components/page-style/clinique';
+@import './components/page-style/rdv';
+@import './components/page-style/rdvSelectionne';
+@import './components/page-style/boutique.scss';
+@import './components/page-style/inscription';
+@import './components/page-style/connexion';
+@import './components/page-style/adminGestion';
+@import './components/page-style/create';
+

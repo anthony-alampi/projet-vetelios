@@ -1,0 +1,30 @@
+// Rooting paramètre navigateur
+*, ::before, ::after
+{
+    height: auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    // overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+// Variables
+$nav-color : rgba(40, 40, 40, 0.700);
+$lien-color : #fff;
+$lien-hover : #2CD2F6;
+$typo-taille-lien : 20px;
+$typo-taille-titre: 50px;
+$typo-taille-texte: 20px;
+$titre-color: rgba(45, 45, 45, 0.908);
+$texte-color: #fff;
+$typo-nav : 'Lobster', cursive;
+$typo-titre:'Lobster Two',cursive;
+$typo-texte:'PT Sans',sans-serif;
+$footer-color: rgba(17, 17, 17, 0.904);
+$switch-lien-color : #4262B5;
+$bg-color-custom : rgba(40, 40, 40, 0.700);
+

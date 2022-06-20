@@ -1,0 +1,106 @@
+.background-video-form{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    // overflow: hidden;
+    filter: grayscale(50%);
+}
+.section-form{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .titre-custom{
+        font-size: 2.2em;
+        font-family: $typo-titre;
+        color: $titre-color;
+        text-align: center;
+        overflow-y: hidden;
+    }
+    .container-form{
+        width: 23%;
+        height: auto;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        border: solid 1px #333;
+        background-color: $bg-color-custom;
+            img {
+                margin-top: 50px;
+                margin-bottom: 50px;
+                width: 243px;
+                height: 44px;
+            }
+            .bloc-custom{
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 30px;
+                margin-left: 20px;
+                .invalide{
+                    color: red;
+                    position: absolute;
+                    width: 30%;
+                    margin-top: 40px;
+                }
+    
+            }
+            
+        label{
+            font-size: 20px;
+            font-family: $typo-texte;
+            color: $texte-color;
+            margin-right: 10px;
+        }
+        input{
+            width: 80%;
+            height: 30px;
+            font-size: 17px;
+
+        }
+        #remember{
+            width: 40px;
+            height: 20px;
+        }
+        
+    }
+    .btn-form {
+        font-size: 18px;
+        font-family: $typo-texte;
+        color: #fff;
+        background-color:$bg-color-custom;
+        width: 50%;
+        height: 40px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: solid 1px #fff;
+        cursor: pointer;
+    }
+    .btn-form:hover{
+        color: $lien-hover;
+        transform: scale(1.02);
+        transition: 500ms;
+        box-shadow: 1px 1px 10px black;
+        border: solid 1px $lien-hover;
+       
+    }
+    .mdp-item{
+        color: #fff;
+    }
+    .mdp-item:hover{
+        color: $lien-hover;
+    }
+
+    .lien-register{
+        color:#fff
+    }
+    .lien-register:hover{
+        color: $lien-hover;
+    }
+}
+

@@ -1,0 +1,92 @@
+nav{
+    position: fixed;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 95%;
+    // margin-top: 1%;
+    z-index: 100;
+        img{
+            // position: absolute;
+            // left: 0;
+            width: 243px;
+            height: 44px;
+        }
+
+    .nav-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: $nav-color;
+        border-radius: 5px;
+        
+        .nav-item{
+            margin-right: 40px;
+
+            .form-deco{
+                button{
+                    background: none;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+
+            .nav-lien{
+                color: $lien-color;
+                letter-spacing: 1.2px;
+                font-size: $typo-taille-lien;
+                font-family: $typo-nav;
+                text-decoration: none;
+                
+            }
+            .nav-lien::after{
+                content: "";
+                display: block;
+                padding: absolute;
+                width: 0%;
+                height: 2px;
+                margin: 1px auto;
+                background: #fff;
+                transition: width 0.5s ease-in-out;
+            }
+            .nav-lien:hover::after{
+                width: 100%;
+                transition: 500ms;
+                color: $lien-hover;
+            }
+            .nav-lien:hover{
+                color: $lien-hover;
+            }
+            i{
+                
+                margin-right: 5px;
+                margin-left: 5px;
+                margin-top: 1px;
+            }
+        }
+
+        .nav-item:first-child{
+            margin-right: 150px;
+            margin-left: 20px;
+        }
+        .nav-item:nth-child(2){
+            margin-right: 20px;
+            margin-left: 20px;
+            
+        }
+        .nav-item:nth-child(3){
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        .nav-item:nth-child(4) {
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        .nav-item:nth-child(5) {
+            margin-right: 20px;
+            margin-left: 160px;
+        }
+    }
+}
